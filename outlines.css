@@ -4,79 +4,69 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #000000;
-    color: #FFFFFF;
-    padding: 0;
+    background-color: #D9D2C5;
 }
 
-header {
-    background-color: rgba(26, 26, 26, 0.86);
+.header {
     padding: 20px;
     margin: 15px;
+    background-color: #A69785;
     text-align: center;
+
 }
 
 h1 {
     font-size: 36px;
-    color: #00ff51;
+    color: #261C14;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
+.useful-links__item {
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
-    color: #00ff99;
+.useful-links__link {
+    color: #594A38;
     text-decoration: none;
     font-size: 18px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
 }
 
 main {
     padding: 20px;
 }
 
-section h2 {
+.container__text {
     font-size: 28px;
-    color: #00ccff;
+    color: #261C14;
+    text-align: center;
+    background-color: #A69785;
     margin-bottom: 10px;
 }
 
-section h5 {
+.container__title {
     font-size: 18px;
-    color: #e0e0e0;
+    color: #594A38;
     margin-bottom: 20px;
-}
-
-code {
-    color: #ff8800;
 }
 
 pre {
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #333333;
 }
 
-footer {
-    background-color: #1a1a1a;
+.footer {
     padding: 20px;
     text-align: center;
 }
 
-#cute-cat pre {
-    color: #9d00ff;
+.footer__ascii-cat pre {
+    color: #261C14;
+}
+
+.footer__ascii-cat pre:hover {
+    color: red;
 }
 
 .container {
@@ -86,13 +76,26 @@ footer {
 }
 
 .left-section {
+    box-shadow: 0 4px 8px #261C14;
+    border-radius: 8px;
     width: 45%;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .right-section {
+    box-shadow: 0 4px 8px #261C14;
+    border-radius: 8px;
     width: 45%;
     padding: 20px;
     box-sizing: border-box;
 }
+
+.right-section img {
+    width: 100%;
+}
+
+.code {
+    color: #594A38;
+}
+
